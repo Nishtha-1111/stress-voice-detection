@@ -1,0 +1,32 @@
+# Stress Voice Detection
+
+A machine learning-based stress detection system that analyzes speech recordings and classifies them as stressed or unstressed.
+
+## Project Overview
+This module was developed as part of a larger group project. It focuses specifically on stress detection from voice recordings using acoustic feature extraction and classical machine learning.
+
+## Tech Stack
+- Python
+- Scikit-learn
+- Librosa
+- Pandas
+- NumPy
+- Streamlit
+
+## Project Structure
+- `frontend/app.py` — user-facing application interface
+- `src/audio_processor.py` — audio loading and preprocessing
+- `src/feature_extractor.py` — extraction of acoustic features
+- `src/stress_classifier.py` — model definition and classification logic
+- `src/training_pipeline.py` — end-to-end training workflow
+- `models/` — trained models and evaluation artifacts
+- `tests/` — unit tests
+
+## Results
+- Dataset size: 1,440 audio files
+- Accuracy: 81.67%
+- Precision: 70.0%
+- F1-score: 61.4%
+
+## Note
+Large raw audio files and intermediate processed data are not included in this repository.
