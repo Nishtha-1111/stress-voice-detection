@@ -1,0 +1,27 @@
+{
+    "best_model": "svm",
+    "training_date": "2026-03-07 15:20:26",
+    "dataset_stats": {
+        "total_files": 1440,
+        "features_shape": [
+            1440,
+            2120
+        ]
+    },
+    "best_model_metrics": {
+        "accuracy": 0.8166666666666667,
+        "precision": 0.7,
+        "recall": 0.546875,
+        "f1_score": 0.6140350877192983
+    },
+    "confusion_matrix": [
+        [
+            161,
+            15
+        ],
+        [
+            29,
+            35
+        ]
+    ]
+}
